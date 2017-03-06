@@ -1,4 +1,3 @@
-﻿require('utils')
 db = require("./libs/redis")
 config = loadfile('./config.lua')()
 sudo_users = config.sudo_users
